@@ -36,15 +36,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+  [](twitch.tv)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/nu.png" width="375px" alt="nu homepagina">
+  ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screencapture.png)
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/nu2.png" width="375px" alt="nu vervolgpagina">
+  ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown-2-3.png)
  
 </details>
 
@@ -273,8 +271,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-  1. bron 1
-  2. bron 2
-  3. ...
+1. <a href="https://www.w3schools.com/">w3schools</a>
+2. <a href="http://www.onlinewebfonts.com">oNline Web Fonts</a>
+3. <a href="https://codepen.io/Axiol/pen/QWLRMVr">https://codepen.io/Axiol/pen/QWLRMVr</a>
+4. <a href="https://dev.twitch.tv/docs/embed/everything">https://dev.twitch.tv/docs/embed/everything</a>
+5. <a href="twitch.tv">twitch.tv</a>
+6. <a href="https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function">https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function</a>
+7. <a href="https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript">https://stackoverflow.com/questions/39892794/toggle-image-in-pure-javascript</a>
 
 </details>
