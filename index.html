@@ -1,21 +1,381 @@
 <!doctype html>
 <html lang="nl">
-	
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Howdy FED2223</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta charset="UTF-8">
+    <meta name="author" content="Alexander">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <title>Twitch frontend</title>
+    <link href="styles/style.css" rel="stylesheet">
 </head>
 
 <body>
-	<h1>Howdy FED2223</h1>
+    <header>
+        <a href="index.html" class="home"><img src="images/logo.png" alt="logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <!--- main menu horizontal -->
+                <li><a href="">Following</a></li>
+                <li><a href="">Browse</a></li>
+                <li><a href="">Esports</a></li>
+                <li><a href="">Music</a></li>
 
-	<script defer src="scripts/script.js"></script>
+            </ul>
+        </nav>
+        <!--- sub menu vertical -->
+        <div class="subNAV">
+            <!--- interessante interactie gevonden online waarbij je door middel van een verborgen checkbox hidden content kan laten tonen -->
+            <!--- https://stackoverflow.com/questions/49934826/how-to-open-sub-menu-with-onclick-function-and-hide-with-onclick-function -->
+            <input type="checkbox" id="dots">
+            <label for="dots"><img src="images/ellipsis.png" alt="dots" class="dots"></label>
+            <ul class="submenu">
+                <li><a href=""><b>General</b></a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Advertisers</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Developers</a></li>
+                <li><a href="">Download Apps</a></li>
+                <li><a href="">Gift Card</a></li>
+                <li><a href="">IGDB</a></li>
+                <li><a href="">Jobs</a></li>
+                <li><a href="">Music on Twitch</a></li>
+                <li><a href="">Partners</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">Store</a></li>
+                <li><a href="">Turbo</a></li>
+                <li><a href="">
+                        <hr></a></li>
+                <li><a href=""><b>HELP & LEGAL</b></a></li>
+                <li><a href="">Accessibility Statement</a></li>
+                <li><a href="">Ad choices</a></li>
+                <li><a href="">Community Guidelines</a></li>
+                <li><a href="">Coockie Policy</a></li>
+                <li><a href="">Help</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Security</a></li>
+                <li><a href="">Terms</a></li>
+            </ul>
+        </div>
+        <!--- een searchbalk met toegevoegde icon-->
+        <form>
+            <input type="search" name="search" id="search" placeholder="    Search">
+            <button type="submit" id="searchButton"><img src="images/magnifying-glass.png" alt="search button"></button>
+        </form>
+        <!--- menu icons rechts (onbelangrijk dus niet klikbaar gemaakt) -->
+        <div class="icons">
+            <img src="images/icons.png" alt="icons">
+        </div>
+        <div>
+            <img src="images/iconsMobile.png" alt="icons" class="iconsMobile">
+        </div>
+
+        <h2 class="mobileH">Discover</h2>
+
+        <!--- tweede navigatie vertical -->
+        <ul class="vertical">
+            <li><img src="images/verticalMenu.png" alt="expand" class="expand"></li>
+            <li><img src="images/PF6.png" alt="thumbnail"></li>
+            <li><img src="images/PF5.png" alt="thumbnail"></li>
+            <li><img src="images/PF4.png" alt="thumbnail"></li>
+            <li><img src="images/PF2.png" alt="thumbnail"></li>
+            <li><img src="images/PF3.png" alt="thumbnail"></li>
+        </ul>
+
+        <ul class="expandedMenu">
+            <li><img src="images/uitklab.png" alt="expanded"></li>
+        </ul>
+
+    </header>
+    <main>
+        <!--- neppe slideshow, is gwn een image -->
+        <article class="slideShow">
+            <img src="images/slideShow.png" alt="slidershow">
+        </article>
+        <article>
+            <img src="images/slideShowMobiel.png" alt="slidershow" class="slideShowMobile">
+        </article>
+        <article>
+            <a href="detail.html"><img src="images/thumbnailMobile.jpg" alt="slidershow" class="slideShowMobile"></a>
+        </article>
+
+        <!--- Live channels images flex met ondertext -->
+        <section>
+            <article>
+                <h1>Ontdekken</h1>
+                <h2>Live channels we think you'll like</h2>
+                <ul>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href="detail.html"><img src="images/1.jpg" alt="becca" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream">
+                            <p><img src="images/beccaPF.png" alt="becca"></p>
+                            <figure class="onderStreamText">
+                                <h3>becca - LP MIA oh no</h3>
+                                <p>Becca<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/3.jpg" alt="COD stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF2.png" alt="symfuhny"></p>
+                            <figure class="onderStreamText2">
+                                <h3>[1005+ WINS] Use Code Sym in t..</h3>
+                                <p>Symfuhny<br>Call of Duty: Modern Warfare</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/7.jpg" alt="josh" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream3">
+                            <p><img src="images/PF6.png" alt="dude"></p>
+                            <figure class="onderStreamText3">
+                                <h3>Use Code Josh</h3>
+                                <p>JOSH<br>DOOM</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/8.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF4.png" alt="Pokimane"></p>
+                            <figure class="onderStreamText2">
+                                <h3>LEAGUEEEEEEEEEEEEEEEEEE</h3>
+                                <p>Pokimane<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/5.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF3.png" alt="Kandyland"></p>
+                            <figure class="onderStreamText2">
+                                <h3>AAAAAAAAAAAAAAAAAAAAAAWAG1</h3>
+                                <p>Kandyland<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                </ul>
+
+                <ul class="meerWeergeven">
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href="detail.html"><img src="images/6.jpg" alt="foto 1" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream">
+                            <p><img src="images/beccaPF.png" alt="becca"></p>
+                            <figure class="onderStreamText">
+                                <h3>becca - LP MIA oh no</h3>
+                                <p>Becca<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/2.jpg" alt="COD stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF2.png" alt="symfuhny"></p>
+                            <figure class="onderStreamText2">
+                                <h3>[1005+ WINS] Use Code Sym in t..</h3>
+                                <p>Symfuhny<br>Call of Duty: Modern Warfare</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/4.jpg" alt="josh" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream3">
+                            <p><img src="images/PF6.png" alt="dude"></p>
+                            <figure class="onderStreamText3">
+                                <h3>Use Code Josh</h3>
+                                <p>JOSH<br>DOOM</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/9.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF4.png" alt="Pokimane"></p>
+                            <figure class="onderStreamText2">
+                                <h3>LEAGUEEEEEEEEEEEEEEEEEE</h3>
+                                <p>Pokimane<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/3.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF3.png" alt="Kandyland"></p>
+                            <figure class="onderStreamText2">
+                                <h3>AAAAAAAAAAAAAAAAAAAAAA</h3>
+                                <p>Kandyland<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                </ul>
+
+                <button id="showMore"> Show more &nbsp;<img src="images/down-chevron.png" class="arrowDown" alt="arrow down"></button>
+
+
+            </article>
+        </section>
+        <section>
+            <article class="categories">
+                <h2><a href=""><span>Categories</span></a> we think you'll like</h2>
+                <ul>
+                    <li> <img src="images/10.jpg" alt="among us" /></li>
+                    <li> <img src="images/11.jpg" alt="warzone" /></li>
+                    <li> <img src="images/12.jpg" alt="counter strike" /></li>
+                    <li> <img src="images/13.jpg" alt="fall guys" /></li>
+                    <li> <img src="images/14.jpg" alt="league of legends" /></li>
+                    <li> <img src="images/15.jpg" alt="teamfight tactics" /></li>
+                    <li> <img src="images/16.jpg" alt="walorant" /></li>
+                    <li> <img src="images/17.jpg" alt="just chatting" /></li>
+                    <li> <img src="images/18.jpg" alt="fortnite" /></li>
+                    <li> <img src="images/19.jpg" alt="minecraft" /></li>
+                    <li> <img src="images/20.jpg" alt="new world" /></li>
+                    <li> <img src="images/21.jpg" alt="special events" /></li>
+
+                </ul>
+            </article>
+        </section>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <section class="mobiel">
+            <article>
+                <h1>Ontdekken</h1>
+                <h2>Recommended <a href=""><span>Just chatting</span></a> channels</h2>
+                <ul>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href="detail.html"><img src="images/1.jpg" alt="foto 1" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream">
+                            <p><img src="images/beccaPF.png" alt="becca"></p>
+                            <figure class="onderStreamText">
+                                <h3>becca - LP MIA oh no</h3>
+                                <p>Becca<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/3.jpg" alt="COD stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF2.png" alt="symfuhny"></p>
+                            <figure class="onderStreamText2">
+                                <h3>[1005+ WINS] Use Code Sym in t..</h3>
+                                <p>Symfuhny<br>Call of Duty: Modern Warfare</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/7.jpg" alt="josh" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream3">
+                            <p><img src="images/PF6.png" alt="dude"></p>
+                            <figure class="onderStreamText3">
+                                <h3>Use Code Josh</h3>
+                                <p>JOSH<br>DOOM</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/8.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF4.png" alt="Pokimane"></p>
+                            <figure class="onderStreamText2">
+                                <h3>LEAGUEEEEEEEEEEEEEEEEEE</h3>
+                                <p>Pokimane<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                    <section>
+                        <!--- image met hover scaled naar boven en achtergrond laat zichzelf zien -->
+                        <li class="stream"><a href=""><img src="images/5.jpg" alt="LoL stream" class="stream__thumbnail" />
+                                <div class="background"></div>
+                            </a></li>
+                        <!--- profielfoto en ondertext -->
+                        <article class="onderStream2">
+                            <p><img src="images/PF3.png" alt="Kandyland"></p>
+                            <figure class="onderStreamText2">
+                                <h3>AAAAAAAAAAAAAAAAAAAAAA</h3>
+                                <p>Kandyland<br>Teamfight Tactics</p>
+                            </figure>
+                            <button class="english">English</button>
+                        </article>
+                    </section>
+                </ul>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/meerWeergeven.js"></script>
 </body>
-	
+
 </html>
