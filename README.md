@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Alexander Plet
 
   #### Je startniveau:
-  Blauw
+  Blauw/Rood
 
   #### Je focus:
   Responsive
@@ -39,10 +39,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   [](twitch.tv)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/smallHome.png)
+  ![screenshot(s) die een goed beeld geven van de website die je gaat maken]
+  <img src="images/smallHome.jpg" width="375px" alt="smallHome">!
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/smallPage.png)
+  <img src="images/smallPage.jpg" width="375px" alt="smallPage">!
  
 </details>
 
