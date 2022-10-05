@@ -39,10 +39,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   [](twitch.tv)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/screencapture.png)
+  ![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/smallHome.png)
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown-2-3.png)
+  ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/smallPage.png)
  
 </details>
 
@@ -98,10 +98,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="images/screencapture.png" width="375px" alt="breakdown">!
+  <img src="images/breakdown-1-.png" width="375px" alt="breakdown">!
 
   ### dynamisch deel (bijv menu): 
-  <img src="images/screenshot9.png" width="375px" alt="breakdownDynamisch">
+  <img src="images/breakdown-2-3.png" width="375px" alt="breakdownDynamisch">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   x
