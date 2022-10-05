@@ -63,7 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - De linkjes zijn een mix van relevante informatie betreft item en random getallen/letters
   
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  <img src="readme-images/reader.png" width="375px" alt="breakdown">!
+  <img src="images/reader.png" width="375px" alt="breakdown">!
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -72,7 +72,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Wanneer met de tab een element is geselecteerd kan je met behulp van enter het bijbehorende link/button/image bezoeken mocht het er zijn
   - de website twitch.tv heeft een light en dark mode
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  - <img src="readme-images/geselecteerd.png" width="375px" alt="select">!
+  - <img src="images/geselecteerd.png" width="375px" alt="select">!
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
@@ -87,7 +87,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Geen bebruik gemaakt van brillen.
   - Dark/Light mode zorgt ervoor dat er niet een te groot issue is, maar er zijn wel velen kleine elementen op de website die kleurrijk zijn en daardoor voor mensen met kleurenblindheid niet of moeilijk te onderscheiden zijn
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-  - <img src="readme-images/geselecteerd.png" width="375px" alt="kleur">!
+  - <img src="images/geselecteerd.png" width="375px" alt="kleur">!
 </details>
 
 
@@ -98,10 +98,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/screencapture.png" width="375px" alt="breakdown">!
+  <img src="images/screencapture.png" width="375px" alt="breakdown">!
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/screenshot9.png" width="375px" alt="breakdownDynamisch">
+  <img src="images/screenshot9.png" width="375px" alt="breakdownDynamisch">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   x
