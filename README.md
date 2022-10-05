@@ -55,30 +55,39 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - Veel divs met "content" maar niet echt alts te zien of horen
 
   #### Screenreader
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - De narrator legt wel netjes uit wat elke image is en bij wie of wat het hoort
+  - De linkjes zijn een mix van relevante informatie betreft item en random getallen/letters
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  <img src="readme-images/reader.png" width="375px" alt="breakdown">!
 
   #### Muis en Toetsenbord 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - Het toetsenbord werkt. Tab brengt de gebruiker naar de volgende element van links naar rechts in een logische volgorde.
+  - De pijltjes zorgen ervoor dat de gebruiker page up of down kunnen.
+  - Wanneer met de tab een element is geselecteerd kan je met behulp van enter het bijbehorende link/button/image bezoeken mocht het er zijn
+  - de website twitch.tv heeft een light en dark mode
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - <img src="readme-images/geselecteerd.png" width="375px" alt="select">!
 
   #### Motoriek (shocks, elastiekjes)
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - De website is gewoon te bezoeken en te bedienene. Ondanks dat er een slechte motoriek is hoeft de gebruiker niet perse gebruik te maken van een muis.
+  - De meest relevante toetsen op het toetsenbord zijn nog steeds bruikbaar met slecht motoriek.
+  
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  X
 
   #### Visueel (brillen, contrast, kleurenblind, dark/light). 
   Hier korte omschrijving (met indien nodig afbeeldingen)
-
+  - Geen bebruik gemaakt van brillen.
+  - Dark/Light mode zorgt ervoor dat er niet een te groot issue is, maar er zijn wel velen kleine elementen op de website die kleurrijk zijn en daardoor voor mensen met kleurenblindheid niet of moeilijk te onderscheiden zijn
   Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
-
+  - <img src="readme-images/geselecteerd.png" width="375px" alt="kleur">!
 </details>
 
 
@@ -89,13 +98,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 2e werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/screencapture.png" width="375px" alt="breakdown">!
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/screenshot9.png" width="375px" alt="breakdownDynamisch">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+  x
 
 </details>
 
@@ -104,7 +113,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 ## Voortgang 1 (week 2)
-
+AFWEZIG
 <details>
   <summary>uitwerken voor 1e voortgang</summary>
 
