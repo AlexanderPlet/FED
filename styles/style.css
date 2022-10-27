@@ -158,7 +158,12 @@ nav a:hover {
 
 }
 
-
+.slider{
+    display: flex;
+    justify-content:space-between;
+    align-content: center;
+    
+}
 
 .slideShowMobile {
     display: none;
@@ -409,6 +414,8 @@ input[type=submit] {
     text-decoration: none;
 }
 
+/* animation*/ 
+
 @keyframes vergroot {
     0% {
         transform: scale(1);
@@ -440,6 +447,8 @@ input[type=submit] {
 .mobileStream {
     display: none;
 }
+
+/* mobile */
 
 @media only screen and (max-width: 600px) {
 
